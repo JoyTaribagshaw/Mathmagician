@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.parent {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 80px;
+}
+
+.zero {
+  grid-column: 1/3;
+}
+
+.input {
+  display: grid;
+  grid-column: 1/5;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #808080;
+  color: #fff;
+  font-size: 2.8em;
+  padding: 10px;
+}
+
+.orange-btn {
+  background-color: orange;
+}
+
+.white-btn {
+  background-color: #e0e0e0;
+}
+
+button {
+  color: #111;
+  font-size: 1.5em;
+  border: 1px solid #808080;
+  cursor: pointer;
+  padding: 20px;
+}
