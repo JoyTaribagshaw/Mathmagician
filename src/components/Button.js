@@ -5,9 +5,8 @@ function Button({ value, className }) {
   return <button type="button" className={className}>{value}</button>;
 }
 
+export default Button;
 Button.propTypes = {
   value: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
 };
-
-export default Button;
