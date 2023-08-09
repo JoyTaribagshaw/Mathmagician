@@ -68,33 +68,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-Live server, and
-npm
-
-### Setup
-
-Clone this repository to your desired folder:
-
-Example commands:
-
-*git clone git@github.com:JoyTaribagshaw/Mathmagician.git
-
-*cd Mathmagician
-
-*git checkout mathmagician-setup
-
 ### Install
 
 Install this project with:
@@ -170,6 +143,5 @@ I would like to thank Microverse for this great opportunity!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
