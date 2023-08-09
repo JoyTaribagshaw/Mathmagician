@@ -170,6 +170,6 @@ I would like to thank Microverse for this great opportunity!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/JoyTaribagshaw/Mathmagician/blob/main/LICENSE) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
