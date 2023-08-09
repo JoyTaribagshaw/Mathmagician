@@ -1,6 +1,13 @@
+import Calculator from './components/Calculator';
+import './style.css';
+
 function App() {
   return (
-    <div> Joy Tari </div>
+    <div className="container">
+      {' '}
+      <Calculator />
+      {' '}
+    </div>
   );
 }
 
