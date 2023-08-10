@@ -1,32 +1,18 @@
-/* eslint-disable */
-import React, {useState} from 'react';
+/*eslint-disable*/
+import React, { useState } from 'react';
+// import * as math from 'mathjs';
 import Button from './Button';
 import Result from './Result';
+import calculate from '../logic/calculate';
 
 function Calculator() {
-  const [result, setResult] = useState('');
-  
-  const handleButtonClick = (value) => {
-    if (value === '=') {
-      try {
-        // Evaluate the expression and set the result
-        setResult(eval(result).toString());
-      } catch (error) {
-        setResult('Error');
-      }
-    } else if (value === 'AC') {
-      // Clear the result
-      setResult('');
-    } else {
-      // Append the clicked button value to the result
-      setResult(result + value);
-    }
-  };
-
+const handleButtonClick = (e) => {
+  console.log(e.target);
+}
   return (
     <div className="parent">
-      <Result value={result} />
-      <Button onClick={handleButtonClick} className="white-btn" value="AC" />
+      <Result value={0} />
+      {/* <Button onClick={handleButtonClick} className="white-btn" value="AC" />
       <Button onClick={handleButtonClick} className="white-btn" value="+/-" />
       <Button onClick={handleButtonClick} className="white-btn" value="%" />
       <Button onClick={handleButtonClick} className="orange-btn" value="/" />
@@ -38,15 +24,15 @@ function Calculator() {
       <Button onClick={handleButtonClick} className="white-btn" value="5" />
       <Button onClick={handleButtonClick} className="white-btn" value="6" />
       <Button onClick={handleButtonClick} className="orange-btn" value="-" />
-      <Button onClick={handleButtonClick} className="white-btn" value="1" />
-      <Button onClick={handleButtonClick} className="white-btn" value="2" />
-      <Button onClick={handleButtonClick} className="white-btn" value="3" />
+      <Button onClick={handleButtonClick} className="white-btn" value="1" /> */}
+      <Button onClick={(e) => handleButtonClick(e)} className="white-btn" value="2" />
+      {/* <Button onClick={handleButtonClick} className="white-btn" value="3" />
       <Button onClick={handleButtonClick} className="orange-btn" value="+" />
       <Button onClick={handleButtonClick} className="white-btn zero" value="0" />
       <Button onClick={handleButtonClick} className="white-btn" value="." />
-      <Button onClick={handleButtonClick} className="orange-btn" value="=" />
+      <Button onClick={handleButtonClick} className="orange-btn" value="=" /> */}
     </div>
   );
-}
+};
 
 export default Calculator;
