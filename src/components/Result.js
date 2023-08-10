@@ -1,5 +1,6 @@
-function Result() {
-  return <div className="input">0</div>;
+/* eslint-disable */
+function Result({ value }) {
+  return <div className="input">{value}</div>;
 }
 
 export default Result;
