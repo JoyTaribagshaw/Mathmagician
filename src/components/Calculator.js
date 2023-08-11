@@ -1,4 +1,3 @@
-/*eslint-disable*/
 import React, { useState } from 'react';
 import Button from './Button';
 import Result from './Result';

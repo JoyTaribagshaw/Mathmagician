@@ -20,11 +20,3 @@ Button.propTypes = {
   value: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
 };
-
-// function Button({ className, value, onClick }) {
-//   return (
-//     <button type="button" className={className} onClick={() => onClick(value)}>
-//       {value}
-//     </button>
-//   );
-// }
