@@ -1,5 +1,12 @@
-function Result() {
-  return <div className="input">0</div>;
+import React from 'react';
+import PropTypes from 'prop-types';
+
+function Result({ value }) {
+  return <div className="input">{value}</div>;
 }
+
+Result.propTypes = {
+  value: PropTypes.string.isRequired,
+};
 
 export default Result;
