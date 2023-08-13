@@ -12,7 +12,6 @@ function Calculator() {
 
   const handleButtonClick = (value) => {
     const newCalculatorData = calculate(calculatorData, value);
-    // console.log(newCalculatorData);
     setCalculatorData(newCalculatorData);
   };
 
