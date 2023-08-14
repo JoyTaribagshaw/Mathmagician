@@ -1,5 +1,6 @@
 import Calculator from './components/Calculator';
 import './style.css';
+import Quote from './components/Quotes';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       {' '}
       <Calculator />
       {' '}
+      <Quote />
     </div>
   );
 }

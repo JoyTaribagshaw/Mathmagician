@@ -15,9 +15,22 @@ function Calculator() {
     setCalculatorData(newCalculatorData);
   };
 
+  const calculatorScreen = () => {
+    if (calculatorData.next && calculatorData.operation && calculatorData.total) {
+      return calculatorData.total + calculatorData.operation + calculatorData.next;
+    }
+    if (calculatorData.total && calculatorData.operation) {
+      return calculatorData.total + calculatorData.operation;
+    }
+    if (!calculatorData.total) {
+      return calculatorData.next || '0';
+    }
+    return calculatorData.total;
+  };
+
   return (
     <div className="parent">
-      <Result value={calculatorData.next || calculatorData.total || '0'} />
+      <Result value={calculatorScreen()} />
       <Button onClick={handleButtonClick} className="white-btn" value="AC" />
       <Button onClick={handleButtonClick} className="white-btn" value="+/-" />
       <Button onClick={handleButtonClick} className="white-btn" value="%" />
