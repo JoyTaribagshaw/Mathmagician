@@ -104,10 +104,10 @@ button {
 
 .links {
   display: flex;
-    text-align: center;
-    list-style: none;
-    gap: 20px;
-    font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  list-style: none;
+  gap: 20px;
+  font-family: 'Patrick Hand', cursive;
   font-size: 1.5rem;
   margin: auto 10px;
 }
@@ -129,5 +129,5 @@ button {
 
 .calculator_header {
   display: flex;
-  justify-content:space-around ;
+  justify-content: space-around;
 }
