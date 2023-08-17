@@ -56,6 +56,7 @@ button {
   width: 80%;
   justify-content: center;
   text-align: center;
+  margin: auto;
 }
 
 .error-message,
@@ -85,4 +86,50 @@ button {
   font-style: italic;
   font-weight: bold;
   line-height: 50%;
+}
+
+/* Full-website-styling */
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: burlywood;
+}
+
+.title {
+  font-family: 'Patrick Hand', cursive;
+  padding: 10px;
+  font-size: 3rem;
+}
+
+.links {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  gap: 20px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5rem;
+  margin: auto 10px;
+}
+
+.home_page {
+  padding: 20px;
+}
+
+.home_heading {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2rem;
+}
+
+.home_paragraph {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.1rem;
+  padding: 5rem 0.5rem;
+}
+
+.calculator_header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
 }
