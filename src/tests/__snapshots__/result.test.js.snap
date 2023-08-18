@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result Component renders correctly 1`] = `
+<div>
+  <div
+    class="input"
+  >
+    0
+  </div>
+</div>
+`;

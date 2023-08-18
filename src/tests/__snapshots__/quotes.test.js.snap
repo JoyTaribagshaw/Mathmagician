@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`If it renders correctly 1`] = `
+<div
+  className="loading-message"
+>
+  Loading quote, please wait...
+</div>
+`;
+
+exports[`Snapshot test for Quote component 1`] = `
+<div
+  className="quote-container"
+>
+  <p
+    className="quote"
+  />
+  <h2
+    className="author"
+  />
+</div>
+`;

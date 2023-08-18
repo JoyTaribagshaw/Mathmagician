@@ -32,7 +32,7 @@ function Calculator() {
     <div className="calculator_header">
       <h1 className="header">Let us do some math!</h1>
       <div className="parent">
-        <Result value={calculatorScreen()} />
+        <Result value={calculatorScreen()} data-testid="display" />
         <Button onClick={handleButtonClick} className="white-btn" value="AC" />
         <Button onClick={handleButtonClick} className="white-btn" value="+/-" />
         <Button onClick={handleButtonClick} className="white-btn" value="%" />
